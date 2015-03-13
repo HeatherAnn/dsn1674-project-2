@@ -15,45 +15,56 @@ header{
   color: white;
   background-color: #e7001d;
   margin: 0;
+  width: 100%;
+  text-align:center;
 }
 h1{
+  width: 100%;
   margin: 0;
   text-shadow: 0 2px 5px black;
   text-align: center;
   font-size: 1rem;
+  position: absolute;
+  top: 0;
 }
 .letters{
   font-size: 3rem;
   padding-top: 3rem;
+  display: block;
 }
 .medallion{
-  width: 30%;
-  right: 200%;
+  width: 50%;
+  text-align: center;
+  top: 15px;
+  padding: 1rem;
+}
+nav{
+  overflow: hidden;
 }
 nav ul {
   width: 100%;
   list-style-type: none;
   margin: 0;
   clear: left;
+  padding: 0;
 }
-.navs{
-  background-color: #222222;
-}
+
 nav li {
   display: block;
   padding: 0;
   text-align: center;
+  width: 50%;
+  float: left;
 }
 nav a{
   display: block;
-  float: left;
   color: white;
   text-decoration: none;
-  border: 3px solid;
+  border: 1px solid;
   border-color: black;
   background-color: #222222;
-  padding: 0.50em 0.50em;
-  margin: 0.05em;
+  padding: 0.50em;
+  margin: 0;
   text-align: center;
 
 }
@@ -63,11 +74,19 @@ a:hover{
 .shengxiao{
   color: white;
   font-style: italic;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 220px;
+  text-shadow: 0 2px 2px #222222;
 }
 
 .banner{
   width: 100%;
   margin-bottom: 1rem;
+  position: relative;
+}
+.banner2{
+  position: relative;
 }
 p{
   padding: 0.5rem;
@@ -77,6 +96,7 @@ p{
   text-align: center;
   background-color: #e4c22a;
   padding: 1rem;
+  font-style: italic;
 }
 .dragon{
   width: 50%;
@@ -89,6 +109,7 @@ p{
 
 .redheader{
   text-align: center;
+  font-style: italic;
   color: white;
   background-color: #bc0017;
   padding: 1rem;
@@ -106,6 +127,7 @@ p{
   color: white;
   background-color: #222222;
   padding: 1rem;
+  font-style: italic;
 }
 .goat{
   width: 50%;
@@ -142,4 +164,10 @@ a:hover{
 }
 b{
   font-family: 'Noto Sans', sans-serif; font-weight: 400;
+  font-style: italic;
+}
+h2{
+  font-style: normal;
+  width: 100%;
+  text-align: center;
 }
