@@ -33,7 +33,7 @@ h1{
   display: block;
 }
 .medallion{
-  width: 50%;
+  width: 170px;
   text-align: center;
   top: 15px;
   padding: 1rem;
@@ -78,14 +78,13 @@ a:hover{
   font-style: italic;
   font-size: 2rem;
   position: absolute;
-  bottom: 220px;
+  bottom: 170px;
   text-shadow: 0 2px 2px #222222;
   margin: 0 auto;
 }
 
 .banner{
   width: 100%;
-  margin-bottom: 1rem;
   position: relative;
 }
 .banner2{
